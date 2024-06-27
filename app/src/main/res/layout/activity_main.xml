@@ -1,0 +1,98 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20px"
+    android:gravity="center"
+    android:background="#A4CCD1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMPLOYEE CODE"
+        android:textColor="#080909"
+        android:background="#3E9FAB"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code"
+        android:textColorHint="#666666"
+        android:background="#E4E1E1"
+        android:id="@+id/empcode"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textColor="#080909"
+        android:background="#3E9FAB"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColorHint="#666666"
+        android:background="#E4E1E1"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESIGNATION"
+        android:textColor="#080909"
+        android:background="#3E9FAB"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Designation"
+        android:textColorHint="#666666"
+        android:background="#E4E1E1"
+        android:id="@+id/designation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPANY NAME"
+        android:textColor="#080909"
+        android:background="#3E9FAB"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Company Name"
+        android:textColorHint="#666666"
+        android:background="#E4E1E1"
+        android:id="@+id/compname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALARY"
+        android:textColor="#080909"
+        android:background="#3E9FAB"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Salary"
+        android:textColorHint="#666666"
+        android:background="#E4E1E1"
+        android:inputType="number"
+        android:id="@+id/salary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NUMBER"
+        android:textColor="#080909"
+        android:background="#3E9FAB"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobileno"
+        android:textColorHint="#666666"
+        android:background="#E4E1E1"
+        android:inputType="number"
+        android:id="@+id/mobno"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regbtn"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="15px"
+        android:text="REGISTER"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+</LinearLayout>
